@@ -137,6 +137,14 @@ export default function Home() {
           >
             Archive
           </a>
+
+          <a
+            href="#contact"
+            className="transition-colors hover:text-zinc-500"
+          >
+            Contact
+          </a>
+
         </div>
       </nav>
 
@@ -663,6 +671,96 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* ========================================
+          Contact
+      ======================================== */}
+
+      <section
+        id="contact"
+        className="border-t border-zinc-200 bg-white py-24"
+      >
+        <div className="mx-auto max-w-6xl px-6">
+
+          <p className="mb-3 text-sm font-medium uppercase tracking-widest text-zinc-500">
+            Contact
+          </p>
+
+          <div className="grid gap-12 md:grid-cols-2 md:items-end">
+
+            {/* 왼쪽 */}
+            <div>
+              <h2 className="text-3xl font-bold leading-tight md:text-5xl">
+                함께 이야기하고
+                <br />
+                만들어가고 싶습니다.
+              </h2>
+
+              <p className="mt-6 max-w-xl leading-8 text-zinc-600">
+                백엔드와 AI를 중심으로 다양한 개발 경험을 쌓아가고 있습니다.
+                프로젝트, 연구, 협업에 관한 연락은 언제든지 환영합니다.
+              </p>
+            </div>
+
+
+            {/* 오른쪽 */}
+            <div className="space-y-6 md:text-right">
+
+              {/* Email */}
+              <div>
+                <p className="text-sm text-zinc-500">
+                  Email
+                </p>
+
+                <a
+                  href="mailto:이메일주소"
+                  className="mt-2 inline-block text-lg font-medium hover:underline"
+                >
+                  이메일주소
+                </a>
+              </div>
+
+
+              {/* GitHub */}
+              <div>
+                <p className="text-sm text-zinc-500">
+                  GitHub
+                </p>
+
+                <a
+                  href="https://github.com/Jyobibi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-lg font-medium hover:underline"
+                >
+                  github.com/Jyobibi ↗
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* ========================================
+          Footer
+      ======================================== */}
+
+      <footer className="border-t border-zinc-200 bg-white">
+        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
+
+          <p>
+            © 2026 SUBIN JO
+          </p>
+
+          <p>
+            Backend Developer Portfolio
+          </p>
+
+        </div>
+      </footer>
 
       {/* ========================================
           Archive All Modal
